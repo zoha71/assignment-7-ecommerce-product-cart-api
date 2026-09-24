@@ -1,0 +1,18 @@
+[
+  {
+    "id": "usr_d9619e94",
+    "username": "admin",
+    "email": "admin@shop.com",
+    "passwordHash": "$2b$10$x1DVPFcMExKdZ5YqTiKohOIW9KNQDjYpY6AyPLHYsmsPG0hrylq3m",
+    "role": "admin",
+    "createdAt": "2026-03-01T00:00:00.000Z"
+  },
+  {
+    "id": "usr_2255b3bf",
+    "username": "samplecustomer",
+    "email": "customer@shop.com",
+    "passwordHash": "$2b$10$RTFFwQXnKBWSi0bG9o0aPOPDgViRWPKes7SAJqf.vPq9yQv6W0uXi",
+    "role": "customer",
+    "createdAt": "2026-03-01T00:00:00.000Z"
+  }
+]

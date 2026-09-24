@@ -1,0 +1,35 @@
+{
+  "name": "itm-assignment-07-ecommerce-api",
+  "version": "1.0.0",
+  "description": "E-Commerce Product Catalog & Shopping Cart REST API built with Node.js, Express.js, and asynchronous fs/promises persistence.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node scripts/seedAdmin.js",
+    "test": "node test_api.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "ecommerce",
+    "rest-api",
+    "express",
+    "node",
+    "shopping-cart",
+    "session-auth"
+  ],
+  "author": "Kartik Wagh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
